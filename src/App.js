@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 
-import {Cards,Chart,CountryPicker} from "./components";
+import {Cards,CountryPicker} from "./components";
 import styles from "./App.module.css";
 import {fetchdata} from "./api";
 class App extends Component{
@@ -17,7 +17,7 @@ class App extends Component{
       <div className={styles.container}>
           <CountryPicker/>
           <Cards data={data}/>
-          
+
 
       </div>
 
